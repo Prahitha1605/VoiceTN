@@ -110,7 +110,7 @@ Pre-loaded with 8 sample complaints for testing across various categories and ur
 
 ## Environment Setup
 
-Create a `.env.local` file:
+Create a `.env` file:
 ```
 VITE_GROQ_API_KEY=your_groq_api_key_here
 ```
@@ -178,7 +178,7 @@ src/
 ## Troubleshooting
 
 ### Chatbot not responding?
-1. Verify Groq API key in `.env.local`
+1. Verify Groq API key in `.env`
 2. Check API key permissions at console.groq.com
 3. Clear browser cache
 
